@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav>
+  <a [routerLink]="['/component-one']">Component One</a>
+  <a [routerLink]="['/component-two']">Component Two</a>
+  <a [routerLink]="['/component-two', '123']">Component Two/123</a>
+  <a [routerLink]="['/component-two', id]">Component Two/456</a>
+</nav>
+<div style="color: green; margin-top: 1rem;">Outlet:</div>
+<div style="border: 2px solid green; padding: 1rem;">
+  <router-outlet></router-outlet>
+</div>
+
+
+
